@@ -22,6 +22,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sniptt/monads": "^0.5.10",
 		"nxapi": "^1.6.1"
 	}
 }
