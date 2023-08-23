@@ -29,7 +29,6 @@
 	"dependencies": {
 		"@sniptt/monads": "^0.5.10",
 		"base64-url": "^2.3.3",
-		"base64url": "^3.0.1",
 		"chromedriver": "^116.0.0",
 		"crypto": "^1.0.1",
 		"dotenv": "^16.3.1"
