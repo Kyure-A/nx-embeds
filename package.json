@@ -23,6 +23,7 @@
 	"type": "module",
 	"dependencies": {
 		"@sniptt/monads": "^0.5.10",
-		"nxapi": "^1.6.1"
+		"base64url": "^3.0.1",
+		"crypto": "^1.0.1"
 	}
 }
