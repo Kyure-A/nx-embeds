@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  const param = [
+    "Yamada Ryo",
+    "Gotoh Hitori",
+    "Kita Ikuyo",
+    "Ijichi Nijika"
+  ]
+  
+</script>
+
+<iframe data-why>
+  {#each param as p}
+    <p>Hello, {p}!</p>
+  {/each}
+</iframe>
