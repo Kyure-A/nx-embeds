@@ -12,8 +12,13 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
+		"@types/base64-url": "^2.2.0",
+		"@types/base64url": "^2.0.0",
+		"@types/chromedriver": "^81.0.1",
+		"@types/selenium-webdriver": "^4.1.15",
 		"@whyframe/core": "^0.1.10",
 		"@whyframe/svelte": "^0.1.6",
+		"selenium-webdriver": "^4.11.1",
 		"svelte": "^4.0.5",
 		"svelte-check": "^3.4.3",
 		"tslib": "^2.4.1",
@@ -23,7 +28,9 @@
 	"type": "module",
 	"dependencies": {
 		"@sniptt/monads": "^0.5.10",
+		"base64-url": "^2.3.3",
 		"base64url": "^3.0.1",
+		"chromedriver": "^116.0.0",
 		"crypto": "^1.0.1"
 	}
 }
