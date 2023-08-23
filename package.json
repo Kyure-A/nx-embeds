@@ -13,7 +13,6 @@
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
 		"@types/base64-url": "^2.2.0",
-		"@types/base64url": "^2.0.0",
 		"@types/chromedriver": "^81.0.1",
 		"@types/selenium-webdriver": "^4.1.15",
 		"@whyframe/core": "^0.1.10",
