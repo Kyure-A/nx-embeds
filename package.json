@@ -27,6 +27,7 @@
 	"type": "module",
 	"dependencies": {
 		"@sniptt/monads": "^0.5.10",
+		"axios": "^1.4.0",
 		"base64-url": "^2.3.3",
 		"chromedriver": "^116.0.0",
 		"crypto": "^1.0.1",
