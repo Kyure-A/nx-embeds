@@ -14,7 +14,9 @@
 		"@sveltejs/kit": "^1.20.4",
 		"@types/base64-url": "^2.2.0",
 		"@types/chromedriver": "^81.0.1",
+		"@types/qs": "^6.9.7",
 		"@types/selenium-webdriver": "^4.1.15",
+		"@types/tough-cookie": "^4.0.2",
 		"@whyframe/core": "^0.1.10",
 		"@whyframe/svelte": "^0.1.6",
 		"selenium-webdriver": "^4.11.1",
@@ -28,10 +30,13 @@
 	"dependencies": {
 		"@sniptt/monads": "^0.5.10",
 		"axios": "^1.4.0",
+		"axios-cookiejar-support": "^4.0.7",
 		"base64-url": "^2.3.3",
 		"chromedriver": "^116.0.0",
 		"crypto": "^1.0.1",
 		"dotenv": "^16.3.1",
-		"fp-ts": "^2.16.1"
+		"fp-ts": "^2.16.1",
+		"qs": "^6.11.2",
+		"tough-cookie": "^4.1.3"
 	}
 }
