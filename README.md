@@ -8,7 +8,7 @@ You can create a widget that can list the games played on the Nintendo Switch an
 - [x] Generate Auth URL
 - [ ] Check the operation of functions that generate tokens
   - [x] `session_token_code`
-  - [ ] `session_token`
+  - [x] `session_token`
   - [ ] `service_token`
   - [x] `f`
   - [ ] `access_token`
