@@ -10,13 +10,13 @@ Execute `auth()`
 
 ## Todo
 - [x] Generate Auth URL
-- [ ] Check the operation of functions that generate tokens
+- [x] Check the operation of functions that generate tokens
   - [x] `session_token_code`
   - [x] `session_token`
   - [x] `service_token`
   - [x] `f`
   - [x] `userinfo`
-  - [ ] `access_token`
+  - [x] `access_token`
 - [ ] Function to treat game list
 - [ ] Create embeds with iframe with whyframe
 - [ ] Generate embeds with GitHub Actions
