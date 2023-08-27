@@ -17,7 +17,7 @@ Execute `auth()`
   - [x] `f`
   - [x] `userinfo`
   - [x] `access_token`
-- [ ] Function to treat game list
+- [x] Function to treat game list
 - [ ] Create embeds with iframe with whyframe
 - [ ] Generate embeds with GitHub Actions
 
