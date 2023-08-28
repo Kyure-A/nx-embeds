@@ -6,7 +6,7 @@ made with Figma.
 ![Embeds Mock](https://github.com/Kyure-A/nx-embeds/assets/49436968/6d1555f8-2d8a-45ad-b4a8-e03439879636)
 
 ## How to use
-Execute `auth()`
+When you execute the function `auth()`, you will obtain the `session_token`. Please add this token to your GitHub Actions Secrets.
 
 ## Todo
 - [x] Generate Auth URL
