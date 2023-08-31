@@ -45,24 +45,88 @@
     icon: 'https://atum-img-lp1.cdn.nintendo.net/i/c/81737d0151174d57823e75032a7fabe1_256',
     total_played_hours: 0
   }
-];
+  ];
+
+  const logo_url = "https://upload.wikimedia.org/wikipedia/commons/a/a0/Nintendo_Switch_logo%2C_horizontal.png";
+  const icon_size = "80";
   
 </script>
 
 <style>
+  figure {
+    display: flex;
+  }
+
+  .widget {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #FF000A; /* #F9F9F9; */
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+  }
+  
+  .header-title {
+    margin: 0 auto;
+    color: #FFFFFF;
+    padding-top: 18px;
+  }
+
+  .header-logo {
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    background-color: #F9F9F9;
+    border: 1px solid #DDDDDD;
+  }
+
+  .icon-in-card {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  
+  .text-in-card {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 80px;
+    padding: 5px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .playtime {
+    margin: 0 0 0 auto;
+    padding-top: 20px;
+    font-size: 14px;
+  }
   
 </style>
-
-{#each params as p}
-  <figure class="md:flex">
-    <div class="flex flex-row">
-      <div>
-	<img src="{p.icon}" width="100px" height="100px">
-      </div>
-      <div class="px-2 flex flex-col">
-	<div class="bg-gray-900 text-white">{p.title}</div>
-	<div class="text-right">{p.total_played_hours} {returnUnit(p.total_played_hours)}</div>
-      </div>
+<figure>
+  <div class="widget">
+    <div class="header">
+      <img class="header-logo" width="98px" height="39px" src="{logo_url}">
+      <div class="header-title">Most Played Games</div>
     </div>
-  </figure>
-{/each}
+    {#each params as p}
+      <div class="card">
+	<img class="icon-in-card"src="{p.icon}" width="{icon_size}px" height="{icon_size}px">
+	<div class="text-in-card">
+	  <div class="title">{p.title}</div>
+	  <div class="playtime">{p.total_played_hours} {returnUnit(p.toral_played_hours)}</div>
+	</div>
+      </div>
+    {/each}
+  </div>
+</figure>
