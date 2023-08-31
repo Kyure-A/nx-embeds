@@ -28,5 +28,5 @@ When you execute the function `auth()`, you will obtain the `session_token`. Ple
   - [Nintendo Switch API Blueprint](https://github.com/ZekeSnider/NintendoSwitchRESTAPI/blob/master/SwitchBlueprint.md)
 - [f API](https://github.com/imink-app/f-API)
 
-## Inspired
+## Inspired by
 [skuralll/steam-embeds](https://github.com/skuralll/steam-embeds)
