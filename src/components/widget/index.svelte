@@ -53,6 +53,8 @@
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+  
   figure {
     display: flex;
   }
@@ -74,6 +76,7 @@
     margin: 0 auto;
     color: #FFFFFF;
     padding-top: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
   }
 
   .header-logo {
@@ -104,12 +107,14 @@
 
   .title {
     font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
   }
 
   .playtime {
     margin: 0 0 0 auto;
     padding-top: 20px;
     font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
   }
   
 </style>
