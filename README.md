@@ -1,9 +1,8 @@
 # nx-embeds
 You can create a widget that can list the games played on the Nintendo Switch and get its HTML embed code.
 
-## Embeds (Mock)
-made with Figma.
-![Embeds Mock](https://github.com/Kyure-A/nx-embeds/assets/49436968/6d1555f8-2d8a-45ad-b4a8-e03439879636)
+## Embeds
+![widget image](https://github.com/Kyure-A/nx-embeds/assets/49436968/15bd5e35-71c8-4533-9d50-3882e360541c)
 
 ## How to use
 When you execute the function `auth()`, you will obtain the `session_token`. Please add this token to your GitHub Actions Secrets.
