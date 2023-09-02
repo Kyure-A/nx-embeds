@@ -17,8 +17,12 @@ When you execute the function `auth()`, you will obtain the `session_token`. Ple
   - [x] `userinfo`
   - [x] `access_token`
 - [x] Function to treat game list
-- [ ] Create embeds with iframe with whyframe
+- [x] Create Widget
+- [ ] Create embeds js
 - [ ] Generate embeds with GitHub Actions
+
+## Notes
+The link to each game's eshop in the widget is redirected at fancy.org.uk/api/nxapi/title/. So far I haven't had any problems and don't expect any problems, but please keep in mind that maybe the link will be changed to a malicious link.
 
 ## Reference
 - [Nintendo Switch Online API - tkgstrator/Salmonia3 Wiki](https://github.com/tkgstrator/Salmonia3/wiki/Nintendo-Switch-Online-API)
