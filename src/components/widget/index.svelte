@@ -170,7 +170,7 @@
   <div class="widget">
     <div class="header">
       <div class="header-logo"><img src="{logo_url}" width="98px" height="39px"></div>
-      <div class="header-title">Most Played Games</div>
+      <div class="header-title"><a href="https://github.com/Kyure-A/nx-embeds">Most Played Games</a></div>
     </div>
     {#each params as p}
       <div class="card">
