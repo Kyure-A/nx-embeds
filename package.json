@@ -33,7 +33,6 @@
 		"axios-cookiejar-support": "^4.0.7",
 		"base64-url": "^2.3.3",
 		"dotenv": "^16.3.1",
-		"fp-ts": "^2.16.1",
 		"qs": "^6.11.2",
 		"tough-cookie": "^4.1.3"
 	}
