@@ -22,13 +22,16 @@ When you execute the function `auth()`, you will obtain the `session_token`. Ple
 - [ ] Generate embeds with GitHub Actions
 
 ## Notes
-The link to each game's eshop in the widget is redirected at fancy.org.uk/api/nxapi/title/. So far I haven't had any problems and don't expect any problems, but please keep in mind that maybe the link will be changed to a malicious link.
+- This app uses an **unofficial** API obtained by reverse engineering the My Nintendo App. Please note that the API may change and stop working without notice!
+
+- The link to each game's eshop in the widget is redirected at fancy.org.uk/api/nxapi/title/. So far I haven't had any problems and don't expect any problems, but please keep in mind that maybe the link will be changed to a malicious link.
 
 ## Reference
-- [Nintendo Switch Online API - tkgstrator/Salmonia3 Wiki](https://github.com/tkgstrator/Salmonia3/wiki/Nintendo-Switch-Online-API)
+- [Intro to Nintendo Switch REST API](https://dev.to/mathewthe2/intro-to-nintendo-switch-rest-api-2cm7)
 - [Nintendo Switch Rest API](https://github.com/ZekeSnider/NintendoSwitchRESTAPI/tree/master)
   - [Nintendo Account API Blueprint](https://github.com/ZekeSnider/NintendoSwitchRESTAPI/blob/master/NintendoAccountBlueprint.md#nintendo-account-api-blueprint)
   - [Nintendo Switch API Blueprint](https://github.com/ZekeSnider/NintendoSwitchRESTAPI/blob/master/SwitchBlueprint.md)
+  - [My Nintendo App API Blueprint (written by me)](https://github.com/Kyure-A/NintendoSwitchRESTAPI/blob/master/MyNintendo.md)
 - [f API](https://github.com/imink-app/f-API)
 
 ## Inspired by
